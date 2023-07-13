@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  margin: 20px 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #000000;
+  background-color: #ffffff;
+
+  position: sticky;
+  top:0;
+  z-index: 9999;
+}
+
+header a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+
+
+.contact-me-btn {
+  padding: 10px 20px;
+  background-color: #d67915;
+  border-radius: 4px;
+  color: #000000;
+}
+.contact-me-btn:hover {
+  padding: 10px 20px;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+}
+
+/* Sections */
+section {
+  padding: 40px;
+}
+
+/* About Me section */
+#About\ Me {
+  background-color: #232323;
+  color:white;
+}
+
+#About\ Me h1 {
+  color: #00e5ff;
+}
+
+#About\ Me p {
+  margin-bottom: 20px;
+}
+
+/* Studies section */
+#Studies {
+  background-color: #343434;
+}
+
+#Studies h1 {
+  color: #00e5ff;
+}
+
+#Studies ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+#Studies li {
+  padding: 20px;
+  background-color: #555555;
+}
+
+#Studies li strong {
+  color: #00e5ff;
+  font-weight: bold;
+}
+
+#Studies li p {
+  color: #ffffff;
+}
+
+/* Hobbies section */
+#Hobbies {
+  background-color: #464646;
+}
+
+#Hobbies h1 {
+  color: #00e5ff;
+}
+
+#Hobbies ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+#Hobbies li {
+  padding: 20px;
+  background-color: #666666;
+}
+
+#Hobbies li strong {
+  color: #00e5ff;
+  font-weight: bold;
+}
+
+#Hobbies li p {
+  color: #ffffff;
+}
+
+/* Projects section */
+#Projects {
+  background-color: #595959;
+}
+
+#Projects h1 {
+  color: #00e5ff;
+}
+
+#Projects ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+#Projects li {
+  padding: 20px;
+  background-color: #808080;
+}
+
+#Projects li strong {
+  color: #00e5ff;
+  font-weight: bold;
+}
+
+#Projects li p {
+  color: #ffffff;
+}
+
+/* Contact Me section */
+#Contact\ Me {
+  background-color: #696969;
+}
+
+#Contact\ Me h1 {
+  color: #00e5ff;
+}
+
+#Contact\ Me form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+#Contact\ Me form label {
+  color: #ffffff;
+}
+
+#Contact\ Me form input,
+#Contact\ Me form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+#Contact\ Me form button[type="submit"] {
+  padding: 10px 20px;
+  font-family: 'Concert One', cursive;
+  background-color: #00e5ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+}

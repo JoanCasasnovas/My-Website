@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joan's Portfolio</title>
+    <link rel="icon" href="HTML logo.png" />
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-family: 'Concert One', cursive;
+        }
+        
+        h1 {
+            color: #00E5FF;
+            font-size: 4rem;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #00FFA3;
+            font-size: 2rem;
+        }
+        
+        p {
+            font-size: 1rem;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #00E5FF;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+        
+        nav ul li a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        
+        .contact-me-btn {
+            padding: 10px 20px;
+            background-color: orange;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 4px;
+        }
+        
+        section {
+            padding: 40px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        ul li {
+            margin-bottom: 20px;
+        }
+        
+        ul li strong {
+            font-weight: bold;
+            color: #00E5FF;
+        }
+        
+        ul li p {
+            color: #FFFFFF;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #FFFFFF;
+        }
+        
+        
+        form button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #00FFA3;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About Me">About Me</a></li>
+                <li><a href="#Studies">Studies</a></li>
+                <li><a href="#Hobbies">Hobbies</a></li>
+                <li><a href="#Projects">Projects</a></li>
+            </ul>
+        </nav>
+        <a href="#Contact Me" class="contact-me-btn">Contact me</a>
+    </header>
+
+    <section id="Home">
+        <h1>Hi, My name is Joan. 🥸</h1>
+    </section>
+
+    <section>
+        <p>Student, musician</p>
+        <p>Future Engineer.</p>
+    </section>
+
+    <section id="About Me">
+        <h1>About Me</h1>
+        <p>I was born in Ciutadella de Menorca on the 4th of January 2006. I'm 17 years old. Right now, I'm a 
+            student at IES Josep Maria Quadrado.</p>
+    </section>
+       
+    <section id="Studies">
+        <h1>Studies</h1>
+        <ul>
+            <li>
+                <strong>Primary School</strong>
+                <p>I went to primary school in Es Born. I started when I was around 3 years old and I finished at 12 years old.<br>Then 
+                    I went to high school.</p>
+                <img src="Escola-Joan-Benejam.jpeg" width="200" height="100" alt="Escola Joan Benejam" />
+            </li>
+            <li>
+                <strong>High School</strong>
+                <p>In high school, I did the ESO for 4 years and now I am finishing baccalaureate.<br>Then I'm planning on going to university to
+                     study some kind of engineering degree.</p>
+                <img src="quadrado.jpeg" width="200" height="100" alt="IES Josep Maria Quadrado" />
+            </li>
+            <li>
+                <strong>Baccalaureate</strong>
+                <p>I have already finished the first year of baccalaureate, but in September, I'm starting the second.<br>I'm doing the Science
+                     and technology-related one because it's oriented to the career path that I want to take. </p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Hobbies">
+        <h1>Hobbies</h1>
+        <ul>
+            <li>
+                <strong>Listening to music</strong>
+                <p>Music brings joy, evokes emotions, and creates lasting memories. It uplifts spirits, provides comfort,<br>and sparks inspiration. 
+                    The universal language of music connects people and adds depth to our lives.</p>
+                <img src="Metallica - And justice for all.jpg" width="175" height="175" />
+                <img src="Pèl de gall.jpeg" width="175" height="175"
+            </li>
+            <li>
+                <strong>Playing the guitar</strong>
+                <p>I've been playing the guitar for approximately 9 years, and I love it. It's one of the things that I enjoy the most. </p>
+                <img src="Concert_Palmeral.JPG" width="400" height="300"
+            </li>
+            <li>
+                <strong>Doing sports</strong>
+                <p>I've done sport all my life, and I really like it. It's stress-relieving and it is also very healthy.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Projects">
+        <h1>Projects</h1>
+        <p>I've done some projects throughout my life such as:</p>
+        <ul>
+            <li>
+                <strong>Music</strong>
+                <p>I've always been very related to music all my life.
+                    I started playing the guitar when I was around 8 years
+                    old and I'm still playing. That's why me and some friends decided to make a band.
+                    We have done a few concerts and written some original songs.</p>
+                <img src="images/Concert_Born.jpg" width="575" height="375"/>
+            </li>
+            <li>
+                <strong>Academic</strong>
+                <p>These two years of baccalaureate, I've been working on a research project about physics
+                    and music, and I will have to present it to a court of 5 judges.
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Contact Me">
+        <h1>Contact Me</h1>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="Name" required>
+      
+          <label for="surname">Surname:</label>
+          <input type="text" id="surname" name="Surname" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="Email" required>
+      
+          <label for="tel">Tel:</label>
+          <input type="tel" id="tel" name="Tel" required>
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="Message"></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>        
+</body>
+</html>
